@@ -13,7 +13,6 @@ async function signup() {
     document.getElementById('auth-message').textContent = data.message || data.error;
 }
 
-// Login
 async function login() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
